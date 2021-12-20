@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    
+    <info organisation="matheus" module="roteirizador" revision="1.0-SNAPSHOT" status="snapshot" />
+    
+    <configurations>
+    	<conf name="default" description="All"/>
+    	<conf name="test" extends="default" visibility="private" description="Testing"/>
+    </configurations>
+    
+    <dependencies>
+    	<dependency org="com.jgoodies" name="jgoodies-forms" rev="1.6.0" conf="default"/>
+    	<dependency org="com.jgoodies" name="jgoodies-binding" rev="2.7.0" conf="default"/>
+    	<!-- 
+    	<dependency org="org.hsqldb" name="hsqldb-j5" rev="2.2.4"/>
+    	 -->
+ 
+	
+    </dependencies>
+</ivy-module>

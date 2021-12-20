@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="java" deleted="false"
+		description="Fire Change Support" enabled="true" name="f_c">
+		Object oldValue = this.${enclosing_method_arguments};&#13;
+		this.${enclosing_method_arguments} = ${enclosing_method_arguments};&#13;
+		changeSupport.firePropertyChange("${enclosing_method_arguments}", oldValue, ${enclosing_method_arguments});
+	</template>
+</templates>
